@@ -1,0 +1,265 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+SA+Beginner&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    /* border: 1px solid; */
+}
+body{
+    font-family:Aftika, sans-serif;
+}
+.header{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: auto;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content:right;
+    padding: 2rem 10rem 2rem 0;
+
+}
+#titulo{
+    padding: 2rem 2rem;
+    background-color: #d70021;
+    position: absolute;
+    top: 25%;
+    left: 4%;
+}
+#titulo h1{
+    color: white;
+    font-family: 'Edu SA Beginner', cursive;
+    font-size: 30px;
+}
+#titulo span{
+    display: block;
+}
+ul{
+    padding: 1rem;
+    display: flex;
+    gap: 3rem;
+}
+ul li{
+    list-style: none;
+    font-weight: bold;
+}
+ul li a{
+    font-size: 24px;
+    color: #6f2222;
+    text-decoration: none;
+}
+ul li a:hover{
+    color: #d70021;
+}
+.Select{
+    color: #d70021;
+}
+.Select:hover{
+    color: #6f2222;
+}
+#Introduction{
+    margin-top: 15rem;
+    padding: 20px;
+    width: 100%;
+    position: relative; 
+}
+.Intro_img{
+    display: block;
+    width: 100%;
+    height: 500px; 
+    object-fit: cover;
+}
+.Intro_p{
+    position: absolute;
+    color: white;
+    top: 20%;
+    left: 10%;
+    max-width: 500px;
+    padding: 2rem;
+}
+.Intro_p h2, .About_txt h2{
+    font-size: 90px;
+    font-family: 'Ibarra Real Nova', serif;
+}
+.Intro_p p, .About_txt p{
+    font-size: 20px;
+    line-height: 2rem;
+    padding-top: 1rem;
+}
+.About_txt p, .product_p{
+    color: gray;
+}
+.Intro_p button, .About_txt button,.product_btn, .sign_btn{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 1rem;
+    padding: .7rem 3rem;
+    border-radius: 15px;
+    color: white;
+    background-color: #d70021;
+    border: none;
+    cursor: pointer;
+}
+.Intro_p button:hover,.About_txt button:hover,.product_btn:hover{
+    transition: .5s;
+    background-color: #9a061c;
+}
+#About{
+    margin-top: 4rem;
+    width: 100%;
+    height: auto;
+    background-color: #fef2e9;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 10rem;
+    flex-wrap: wrap;
+}
+.Fondo{
+    background-color: white;
+    width: 800px;
+    height: 400px;
+    padding: 2rem;
+}
+.About_img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.About_txt{
+    max-width: 700px;
+}
+.About_txt h2{
+    font-family: 'Ibarra Real Nova', serif;
+    color: #6f2222;
+    font-size: 70px;
+}
+.About_txt p{
+    font-size: 22px;
+    margin-bottom: 1rem;
+}
+#Products{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 4rem 2.5rem;
+    margin-top: 3rem;
+}
+.product{
+    max-width: 600px;
+    height: auto;
+    text-align: center;
+}
+.product_img{
+    width: 100%;
+    height: 500px;
+    margin-bottom: 1rem;
+}
+.product_title{
+    font-family: 'Ibarra Real Nova', serif;
+    color: #d70021;
+    font-size: 40px;
+}
+.product_p{
+    font-size: 20px;
+    padding: 1.5rem;
+}
+.product_btn{
+   text-align: center;
+   margin-bottom: 1rem;
+}
+.Phrase{
+    position:relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    height: auto;
+    padding: 1rem;
+    text-transform: uppercase;
+}
+.phrase_img{
+    display: block;
+    width: 100%;
+    height: 500px; 
+    object-fit: cover;
+}
+.phrase_text{
+    font-family: 'Edu SA Beginner', cursive;
+    position: absolute;
+    top: 25%;
+    right: 10%;
+    max-width: 600px;
+}
+.phrase_p{
+    font-size: 50px;
+    padding-bottom: 1rem;
+    color: #fff;
+}
+.phrase_p span{
+    font-weight: bold;
+    color: #ffca61;
+}
+.phr_autor{
+    font-size: 30px;
+    text-align: end;
+    color: #fff;
+}
+#Sign{
+    margin-top: 2rem;
+    width: 100%;
+    padding: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sign_block{
+    padding: 4rem;
+    width: 1000px;
+    background-color: #d70021;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    border-radius: 15px;
+    border: none;
+}
+.Sign_txt{
+    color: white;
+}
+.sign_h{
+    font-size: 35px;
+    padding-bottom: .7rem;
+}
+.sign_p{
+    font-size: 18px;
+}
+.sign_btn{
+    padding: 1rem 2rem;
+    border-radius: 15px;
+   background-color: #fff;
+   color: #d70021;
+}
+.footer{
+    margin-top: 5rem;
+    width: 100%;
+    background-color: #d70021;
+    padding: 2rem;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+.footer p{
+    font-weight: bold;
+    color: white;
+    font-size: 20px;
+}
