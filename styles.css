@@ -46,7 +46,6 @@ body{
     padding: 1rem;
     display: flex;
     gap: 3rem;
-    
 }
 .menu li{
     list-style: none;
@@ -69,9 +68,10 @@ body{
 .hamburger{
     display: block;
     position: relative;
-    z-index: 1;
+    z-index: 0;
     appearance: none;
     outline: none;
+    border: none;
     background: none;
     cursor: pointer;
 }
@@ -303,6 +303,9 @@ body{
     }
     .menu_links{
         font-size: 18px;
+    }
+    .hamburger{
+        display: block;
     }
     .About_txt{
         display: flex;
